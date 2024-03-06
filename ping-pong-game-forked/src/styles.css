@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+#container{
+	position: relative;
+}
+#ball{
+	width: 20px;
+	height: 20px;
+	background-color: darkcyan;
+	position: fixed;
+	border-radius: 50%;
+	top: 20px;
+	left: 50%;
+	
+}
+#rod1, #rod2{
+	width: 200px;
+	height: 20px;
+	position: fixed;
+	left: 50%;
+	border-radius: 25px;
+	color: whitesmoke;
+	font-weight: bold;
+	text-align: center;
+}
+#rod1{
+	background-color: forestgreen;
+	top: 0px;
+}
+#rod2{
+	background-color: darkred;
+	bottom: 0px;
+}
